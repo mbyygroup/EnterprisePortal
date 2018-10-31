@@ -25,7 +25,7 @@ public class IndexController {
     * 页面跳转（二级目录）
     *
     * */
-    @RequestMapping("{module}/{url}.shtml")
+    @RequestMapping("{module}/{url}.html")
     public String page(@PathVariable("module")String module,@PathVariable("url")String url){
         return module+"/"+url;
     }

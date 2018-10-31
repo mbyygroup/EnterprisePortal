@@ -14,7 +14,7 @@ public class HelloController {
     }
     @RequestMapping(value = "index.html",method = RequestMethod.GET)
     public String index(){
-        return "index";
+        return "index.html";
     }
     @RequestMapping(value = "service.html",method = RequestMethod.GET)
     public String service(){

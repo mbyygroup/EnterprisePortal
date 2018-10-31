@@ -29,9 +29,12 @@ spring:
 #    cache: false
   mvc:
     static-path-pattern: /**
-  #freemarker模板配置
+    view:
+      suffix: .html
+      prefix: classpath:/templates/
+#  #freemarker模板配置
 #  freemarker:
-#    template-loader-path: classpath:/static/templates/
+#    template-loader-path: classpath:/static/template/
 #    suffix: flt
 #    enabled: true
 #    cache: false
@@ -68,8 +71,8 @@ pagehelper:
 
 #mtbatis配置  节点必须为独立的节点
 mybatis:
-  mapper-locations: classpath:/mapping/*mapping.xml    #mapper映射xml文件的所有路径
-  type-aliases-package: com.mbyy.portal. pojo   #实体类中的路径
+  mapper-locations: classpath:/mapping/*Mapper.xml    #mapper映射xml文件的所有路径
+  type-aliases-package: com.itstyle.seckill.pojo    #实体类中的路径
 
 
 
