@@ -24,41 +24,41 @@ spring:
     password: mbyy0506
     driver-class-name: com.mysql.cj.jdbc.Driver
   #thymeleaf模板配置
-#  thymeleaf:
-#    mode: LEGACYHTML5
-#    cache: false
+  thymeleaf:
+    mode: LEGACYHTML5
+    cache: false
   mvc:
     static-path-pattern: /**
     view:
       suffix: .html
       prefix: classpath:/templates/
 #  #freemarker模板配置
-#  freemarker:
+  freemarker:
 #    template-loader-path: classpath:/static/template/
-#    suffix: flt
-#    enabled: true
-#    cache: false
-#    charset: UTF-8
-#    content-type: text/html
-#    allow-request-override: false
-#    check-template-location: true
-#    expose-request-attributes: false
-#    expose-session-attributes: false
-#    expose-spring-macro-helpers: false
-#  session:
-#    store-type: redis
-#  redis:
-#    database: 0
-#    host: localhost
-#    port: 6379
-#    password:
-#    jedis:
-#      pool:
-#        max-active: 8
-#        max-wait: 1s
-#        max-idle: 8
-#        min-idle: 0
-#    timeout: 30000s
+    suffix: flt
+    enabled: true
+    cache: false
+    charset: UTF-8
+    content-type: text/html
+    allow-request-override: false
+    check-template-location: true
+    expose-request-attributes: false
+    expose-session-attributes: false
+    expose-spring-macro-helpers: false
+  session:
+    store-type: redis
+  redis:
+    database: 0
+    host: localhost
+    port: 6379
+    password:
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: 1s
+        max-idle: 8
+        min-idle: 0
+    timeout: 30000s
 
 
 
