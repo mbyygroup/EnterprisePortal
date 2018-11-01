@@ -150,9 +150,9 @@ $(function() {
     var opts = {
         width: 200, // 信息窗口宽度
         height: 70, // 信息窗口高度
-        title: "上海平欣电子科技有限公司", // 信息窗口标题 
+        title: "北京小锋文化传媒有限公司", // 信息窗口标题
     }
-    var infoWindow = new BMap.InfoWindow("地址：上海浦东新区张杨路88号滨江大厦911室", opts); // 创建信息窗口对象 
+    var infoWindow = new BMap.InfoWindow("地址：北京市房山区", opts); // 创建信息窗口对象
     marker.addEventListener("click", function() {
         map.openInfoWindow(infoWindow, point); //标注开启信息窗口
     });
