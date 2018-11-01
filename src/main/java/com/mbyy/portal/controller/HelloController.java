@@ -65,4 +65,9 @@ public class HelloController {
         return "product/skill-form";
     }
 
+    @RequestMapping(value = "test.html",method = RequestMethod.GET)
+    public String test(){
+        return "test";
+    }
+
 }

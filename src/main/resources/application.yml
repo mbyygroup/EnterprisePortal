@@ -34,7 +34,7 @@ spring:
       prefix: classpath:/templates/
 #  #freemarker模板配置
   freemarker:
-#    template-loader-path: classpath:/static/template/
+    template-loader-path: classpath:/templates
     suffix: flt
     enabled: true
     cache: false
