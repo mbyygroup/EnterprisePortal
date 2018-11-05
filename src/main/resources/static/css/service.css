@@ -64,7 +64,7 @@
     }
     .form{color:#444;font-size:18px;}
     .form li input,.auto,.form textarea{box-sizing:border-box;}
-	.service{position:relative;background:url(../img/service.jpg) center center/100% auto no-repeat ;overflow:hidden;position:relative;}  
+	.service{position:relative;background:url(../img/service.jpg) center center/100% auto no-repeat ;overflow:hidden;position:relative;}
 	.service img,.title{position:absolute}
 	.service .img-bg{height:500px;top:50%;right:12%;margin-top:-250px;opacity:0;animation:moveL 1s linear .1s forwards;}
 	.img-f1{top:32%;left:44%;animation:floatL 4s linear 1.1s infinite alternate;}
