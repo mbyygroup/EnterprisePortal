@@ -101,15 +101,15 @@ h1{font-size:40px;text-align:center;}
 	18.75%{transform:rotate(-90deg);} 
 	100%{transform:rotate(-90deg);}
 }
-.con-service-list{background:url(../img/product-service.jpg) 0 0/100% 100% no-repeat} 
+.con-service-list{background:url(../img/timg.png) 0 0/100% 100% no-repeat}
 .listdetail{padding-top:50px}
 .listdetail li{font-size:18px;padding-top:50px;padding-bottom:25px;position:relative;} 
-.wrap{display:inline-block;position:relative;overflow:hidden;float:left;height:130px;border-radius:130px;}
+.wrap{display:inline-block;position:relative;overflow:hidden;float:left;height:130px;}
 .wrap div{position:absolute;top:0;height:130px;width:130px;text-align:center;color:#65780e;font:30px/130px "微软雅黑";}
 .last{padding-bottom:80px;position:relative;} 
-.listdetail .wrap img{height:130px;width:130px}  
-/*向下箭头*/
-.listdetail li{background:url(../img/dotline.gif) 63px 0 no-repeat;}
+/*.listdetail .wrap img{height:130px;width:160px}*/
+.smaller-image{ top: 20px;height:170px;width:160px;border-color: black;border-width: 1px;border-style: solid;border-radius:40%;}  /*对图片进行裁剪以显示圆形区域*/
+	/*向下箭头*/
 .listdetail li:nth-of-type(1){background-position:63px 50px;}
 .listdetail li:nth-of-type(3){padding-bottom:0;margin-bottom:30px;}
 .listdetail li:nth-of-type(1) .double-down div{animation-delay:3s;}
