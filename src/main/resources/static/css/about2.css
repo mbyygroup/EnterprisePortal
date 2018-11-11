@@ -28,7 +28,7 @@ h2{font-size:30px;}
 .next{float:right;}
 .slider{transition:all .3s linear;-webkit-transition:all .3s linear;-moz-transition:all .3s linear;-ms-transition:all .3s linear;}
 .company-intro img,.slider a,.slider img,.position p{transition:all .3s linear .3s;-webkit-transition:all .3s linear .3s;-moz-transition:all .3s linear .3s;-ms-transition:all .3s linear .3s;}
-.about{background:url(../img/aboutbg.png) no-repeat;background-size:100% 100%;}
+.about{background:url(../img/abc_1.jpg) no-repeat;background-size:100% 100%;}
 .motto{color:#b9d068;text-align:center;}
 .motto,.principle{margin:20px auto 20px}
 .principle{text-align:left;line-height:1.8;}
@@ -42,7 +42,7 @@ h2{font-size:30px;}
 .our-partner .wrap{height:100px;position:relative;overflow:hidden;margin:40px 0; }
 .our-partner h1{color:#000;}
 .our-partner ul{height:100px;position:absolute;left:0;}
-.our-partner li{float:left;margin-right:40px;perspective:400;-webkit-perspective:400;}
+.our-partner li{float:left;margin-right:40px;perspective:400px;-webkit-perspective:400px;}
 .our-partner img{width:200px;height:100px;transition:all linear .3s;}
 .our-partner img:hover{transform:translateY(-10px) scale(1.1);}
 .connect-us{text-align:center;padding:56px 0 120px;}

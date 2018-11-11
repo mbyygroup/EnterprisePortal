@@ -48,7 +48,7 @@ public class HelloController {
     public String resume(){
         return "resume";
     }
-    @RequestMapping(value = "con-service.html",method = RequestMethod.GET)
+    @RequestMapping(value = "con-",method = RequestMethod.GET)
     public String con_service(){
         return "product/con-service";
     }
@@ -56,7 +56,7 @@ public class HelloController {
     public String con_service_list(){
         return "product/con-service-list";
     }
-    @RequestMapping(value = "product-service.html",method = RequestMethod.GET)
+    @RequestMapping(value = "product-",method = RequestMethod.GET)
     public String product_service(){
         return "product/product-service";
     }

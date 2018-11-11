@@ -258,7 +258,8 @@
    .tec-form p {
        color: #fff
    }
-   
+
+
    .tec-form .img-service {
        background: url(../img/tec-form.png) center 40%/auto 90% no-repeat;
    }
@@ -417,7 +418,7 @@
        color: #91CC18;
        border-color: #91CC18;
    }
-   /*关于平欣*/
+   /*关于小锋传媒*/
    
    .about-px {
        background: #81b8b2
@@ -500,7 +501,7 @@
    }
    
    .con-service .img-service {
-       background: url(../img/index-con.png) center 20%/auto 80% no-repeat;
+       background: url(../img/yingshi.jpg) center 20%/auto 80% no-repeat;
    }
    
    .about-px p {
