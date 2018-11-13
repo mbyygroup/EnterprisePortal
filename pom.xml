@@ -85,10 +85,10 @@
             <version>2.6</version>
         </dependency>
         <!--spring-session-->
-        <dependency>
-            <groupId>org.springframework.session</groupId>
-            <artifactId>spring-session</artifactId>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.session</groupId>-->
+            <!--<artifactId>spring-session</artifactId>-->
+        <!--</dependency>-->
         <!--thymeleaf模板：非常重要，没有可能导致404-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
