@@ -5,6 +5,7 @@ import com.mbyy.portal.pojo.Star;
 import com.mbyy.portal.service.StarService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
 
@@ -21,5 +22,10 @@ public class StarServiceImpl implements StarService {
     @Override
     public List<Star> selectAll() {
         return starMapper.selectAll();
+    }
+
+    @Override
+    public List<Star> selectByType(String type) {
+        return starMapper.selectByType(type);
     }
 }

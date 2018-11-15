@@ -7,4 +7,5 @@ import java.util.List;
 public interface StarService {
     Star selectByName(String name);
     List<Star> selectAll();
+    List<Star> selectByType(String type);
 }

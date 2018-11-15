@@ -24,5 +24,10 @@
     <include refid="Base_Column_List" />
     from star
   </select>
-
+  <select id="selectByType" parameterType="java.lang.String" resultMap="ResultMapWithBLOBs">
+    select
+    <include refid="Base_Column_List" />
+    from star
+    where type = #{type ,jdbcType=VARCHAR}
+  </select>
 </mapper>

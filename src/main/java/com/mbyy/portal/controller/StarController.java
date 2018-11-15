@@ -24,4 +24,7 @@ public class StarController {
     public List<Star> selectAll(){
         return starService.selectAll();
     }
+
+    @GetMapping(value = "selectByType")
+    public List<Star> selectByType(String type){ return starService.selectByType(type);}
 }

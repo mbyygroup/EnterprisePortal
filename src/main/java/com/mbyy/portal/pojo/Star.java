@@ -1,9 +1,10 @@
 package com.mbyy.portal.pojo;
 
+import javax.persistence.Entity;
 import java.io.Serializable;
 
+@Entity
 public class Star implements Serializable {
-
 
     private static final long serialVersionUID = -2187148315777981467L;
     private Integer id;
