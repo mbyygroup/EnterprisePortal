@@ -50,7 +50,7 @@ public class HelloController {
     }
     @RequestMapping(value = "con-service-list.html",method = RequestMethod.GET)
     public String con_service_list(){
-        return "product/con-service-list";
+        return "redirect:/api/con-service-list.html";
     }
     @RequestMapping(value = "product-service",method = RequestMethod.GET)
     public String product_service(){
@@ -60,12 +60,4 @@ public class HelloController {
     public String skill_form(){
         return "product/skill-form";
     }
-    @RequestMapping(value = "test.html",method = RequestMethod.GET)
-    public String test(){
-        return "test";
-    }
-
-
-
-
 }
