@@ -4,8 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.mbyy</groupId>
-    <artifactId>portal</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <artifactId>xfcm</artifactId>
+    <version>v1.0</version>
     <packaging>jar</packaging>
 
     <name>portal</name>
