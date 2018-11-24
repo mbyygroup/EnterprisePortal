@@ -134,7 +134,7 @@ $(function() {
         })
         // 百度地图API功能 
     var map = new BMap.Map("showMap"); //传入的参数一定要是ID名
-    var point = new BMap.Point(121.516769, 31.229941);
+    var point = new BMap.Point(115.997453,39.73049);
     var marker = new BMap.Marker(point); // 创建标注
     map.addOverlay(marker); // 将标注添加到地图中 
     //marker.setAnimation(BMAP_ANIMATION_BOUNCE);//标注跳动的动画
