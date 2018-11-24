@@ -5,18 +5,17 @@
     <title>豪华明星阵容</title>
     <link rel="stylesheet" href="../css/common.css" />
     <link href="@{https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css}" rel="stylesheet"/>
-    <link rel="stylesheet" href="../css/product.css" />
+    <!--<link rel="stylesheet" href="../css/product.css" />-->
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=7IN3zE1VQTY6XEGACnvqWRdLZjXeEvRs"></script>
     <style>
         .con-service-list{background:url(../img/timg.png) 0 0/100% 100% no-repeat}
-        .listdetail{padding-top:50px}
         .listdetail li{font-size:18px;padding-top:50px;padding-bottom:25px;position:relative;}
-        .wrap{display:inline-block;position:relative;float:left;height:240px;}
-        .wrap div{position:absolute;top:0;height:200px;width:200px;text-align:center;color:#65780e;font:30px/130px "微软雅黑";}
-        .last{padding-bottom:80px;position:relative;}
-        /*.listdetail .wrap img{height:130px;width:160px}*/
-        .smaller-image{ top: 20px;left:20px;right:20px;height:200px;width:200px;border-color: white;border-width: 1px;border-style: solid;border-radius:50%;}  /*对图片进行裁剪以显示圆形区域*/
+        .wrap{display:inline-block;position:relative;overflow:hidden;float:left;height:300px;}
+        .listdetail .wrap img{height:300px;width:200px;}
+        .smaller-image{ top: 20px;height:300px;width:200px;}  /*对图片进行裁剪以显示圆形区域*/
+        h2{padding-left: 20px;}
+        dd{padding-left: 20px;}
     </style>
-    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=7IN3zE1VQTY6XEGACnvqWRdLZjXeEvRs"></script>
 </head>
 <body>
 <div class="con-service-list setHeight">
@@ -51,14 +50,14 @@
         <ul>
             <li th:each="user : ${list}" class="clear">
                 <div class="wrap">
-                    <img th:src="${user.photo}" width="220px" height="320px" class="smaller-image"/>
+                    <img th:src="@{../img/{photo_path}(photo_path=${user.photo})}" class="smaller-image"/>
                 </div>
-                <dl>
+                <div>
                     <h2 th:text="${user.name}"></h2>
                     <dd class="intro">
                         <span th:text="${user.content}"></span>
                     </dd>
-                </dl>
+                </div>
             </li>
         </ul>
         <!--<div class="page">-->
@@ -71,19 +70,19 @@
     <div class="auto clear">
         <dl>
             <dt><a href="/product.html">产品展示</a></dt>
-            <img src="./img/gong_si_er_wei_ma.jpg" height="150px" width="150px"/>
+            <img src="../img/gong_si_er_wei_ma.jpg" height="150px" width="150px"/>
             <br/>
             公司公众号
         </dl>
         <dl>
             <dt><a href="../about.html">公司简介</a></dt>
-            <img src="./img/xiao_feng_music.jpg" height="150px" width="150px"/>
+            <img src="../img/xiao_feng_music.jpg" height="150px" width="150px"/>
             <br/>
             小锋音乐公众号
         </dl>
         <dl>
             <dt><a href="../employ.html">人才招聘</a></dt>
-            <img src="./img/wei_bo_er_wei_ma.jpg" height="150px" width="150px"/>
+            <img src="../img/wei_bo_er_wei_ma.jpg" height="150px" width="150px"/>
             <br/>
             新浪微博
         </dl>
